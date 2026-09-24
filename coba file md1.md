@@ -2,33 +2,97 @@
 |:-:|
 |gambar indo defence|
 
+ **Partitur Ibadah Yom Kippur, 20 September 2026**
+-
 
-[gambar skema](https://drive.google.com/file/d/1hNN6ty1MJrUtFt4acsRAD0XmYiF56r-I/view?usp=drive_link)
+## Kau Menunggu Hidupku (A-Bb) 
 
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="c9Pkz5C7Ec6SClXTGYOz">
-    <mxGraphModel dx="1204" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="e5TexA-nEaJvHmlxQKRb-3" edge="1" parent="1" source="e5TexA-nEaJvHmlxQKRb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e5TexA-nEaJvHmlxQKRb-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e5TexA-nEaJvHmlxQKRb-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="270" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="e5TexA-nEaJvHmlxQKRb-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="470" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="e5TexA-nEaJvHmlxQKRb-5" edge="1" parent="1" source="e5TexA-nEaJvHmlxQKRb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e5TexA-nEaJvHmlxQKRb-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=cross-hatch;fillColor=#006600;sketch=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="390" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+Intro||||
+|-|-|-|-|
+|1 . . .   |   5/7 . . .   | 6m . . 5 |  4 . . .   |
+|1 . . .   |   5/7 . . .   | 6m . . 5 |  4 . . .   |
+
+|Verse 1||||
+|-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  |  5 . . .   |
+| 4 . 5/4 .| 3m . 6m . |  2m . . . |  5 . . .   |
+
+|Verse 2||||
+|-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  |  5 . . .   |
+| 4 . 5/4 .| 3m . 6m . |2m. 2M.|  5 . . .   | 5 . . . |
+
+
+Chorus||||
+|-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . . .  |  5 . . 4   |
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |
+
+Intro||||
+|-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . 5 |  4 . . .   |
+
+Verse 2||||
+|-|-|-|-|
+| 6m . . .  |    7 . . .     | 1 . . 2m  | 3m . . .|
+| 4 . 5/4 .| 3m . 6m . |2m. 2M.|  5 . . .   |
+
+Chorus||||
+|:-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . . .  |  5 . . 4   |
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |
+
+Interlude||||
+|:-|-|-|-|
+|   1 . . .   |   5/7 . . .   |  6# . . .  | 6m . . . |
+|3M/5#...| 1 / 5 . . .  |2M/4#...|2m.3m.|
+|  5# . . .   | 4 / 5 . . .  |  **sudah di Bb**
+
+Chorus (Sepi) di Bb||||
+|:-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . . .  |  5 . . 4   |
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |  1 . 5 .  (**Build**)|
+
+Chorus Build up||||
+|:-|-|-|-|
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . . .  |  5 . . 4   |
+|   1 . . .   |   5/7 . . .   | 6m . . .  | 5 . . 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |1.2m 3m|
+
+Coda 2x||||
+|-|-|-|-|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |1.2m 3m|
+| 4 . 5/4 .| 3m . 6m . | 2m . 5 . |  1 . . .| 
+| 5 . . . |
+
+**Medley Sbab Kau Besar (Bb-C)**
+
+Chorus||||
+|-|-|-|-|
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+| 1 . 5 . |
+
+Chorus||||
+|-|-|-|-|
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+| 1 . . . | 6M . . . | **Overtone ke C**
+
+
+Chorus||||
+|-|-|-|-|
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+| 1 . . . | 6m . 5 . | 4 . 2m . | 5 . . . |
+|  1 7 6m . |
+
+Coda|||||
+|-|-|-|-|-|
+| 2m . 5 . | 1 7 6m . | 2m . . . | 5 . . . | 1 . . . |
