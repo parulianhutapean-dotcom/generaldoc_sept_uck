@@ -96,3 +96,6 @@ Chorus||||
 Coda|||||
 |-|-|-|-|-|
 | 2m . 5 . | 1 7 6m . | 2m . . . | 5 . . . | 1 . . . |
+
+
+![gambar coba export](coba export svg.drawio.svg)
