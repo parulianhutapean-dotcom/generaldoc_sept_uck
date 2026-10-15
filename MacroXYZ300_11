@@ -1,0 +1,70 @@
+Attribute VB_Name = "Macro300xyz11"
+Dim swApp As SldWorks.SldWorks
+Dim Part As SldWorks.ModelDoc2
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim myFeature As SldWorks.Feature
+
+Sub main()
+
+    Set swApp = Application.SldWorks
+    Set Part = swApp.ActiveDoc
+    
+    ' Keamanan: Pastikan ada file part yang sedang aktif dibuka
+    If Part Is Nothing Then
+        MsgBox "Silakan buka atau buat dokumen Part baru terlebih dahulu.", vbCritical, "SolidWorks Automation"
+        Exit Sub
+    End If
+    
+    ' =========================================================================
+    ' TAHAP 1: MEMBUAT BALOK UTAMA (80mm x 100mm x 19mm)
+    ' =========================================================================
+    ' Pilih Front Plane dan buka sketsa pertama
+    boolstatus = Part.Extension.SelectByID2("Front Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+    Part.SketchManager.InsertSketch True
+    Part.ClearSelection2 True
+    
+    ' Menggambar kotak dasar (80mm x 100mm) -> Konversi meter: 0.08m x 0.1m
+    Dim vSkLines As Variant
+    vSkLines = Part.SketchManager.CreateCornerRectangle(0, 0, 0, 0.08, 0.1, 0)
+    Part.ClearSelection2 True
+    Part.SketchManager.InsertSketch True ' Menutup Sketch1 dengan aman
+    
+    ' Mengatur orientasi tampilan agar pas di layar
+    Part.ShowNamedView2 "*Trimetric", 8
+    Part.ViewZoomtofit2
+    
+    ' Pilih Sketch1 lalu lakukan Extrude setebal 19mm (0.019m)
+    boolstatus = Part.Extension.SelectByID2("Sketch1", "SKETCH", 0, 0, 0, False, 4, Nothing, 0)
+    Set myFeature = Part.FeatureManager.FeatureExtrusion2(True, False, False, 0, 0, 0.019, 0.01, False, False, False, False, 0.01745, 0.01745, False, False, False, False, True, True, True, 0, 0, False)
+    Part.ClearSelection2 True
+
+    ' =========================================================================
+    ' TAHAP 2: KANTONG PERTAMA (Offset 1mm ke dalam, Potong Dalam 18mm)
+    ' =========================================================================
+    ' Memilih permukaan depan balok secara dinamis pada pusat geometri (X=40mm, Y=50mm, Z=19mm)
+    boolstatus = Part.Extension.SelectByID2("", "FACE", 0.04, 0.05, 0.019, False, 0, Nothing, 0)
+    Part.SketchManager.InsertSketch True
+    Part.ClearSelection2 True
+    
+    ' Pilih kembali permukaan tersebut untuk melakukan perintah Offset Entities sebesar 1mm
+    boolstatus = Part.Extension.SelectByID2("", "FACE", 0.04, 0.05, 0.019, False, 0, Nothing, 0)
+    boolstatus = Part.SketchOffsetEntities2(-0.001, False, False)
+    Part.ClearSelection2 True
+    Part.SketchManager.InsertSketch True ' Menutup Sketch2
+    
+    ' Pilih Sketch2 lalu jalankan pemotongan (Cut-Extrude) sedalam 18mm (0.018m)
+    boolstatus = Part.Extension.SelectByID2("Sketch2", "SKETCH", 0, 0, 0, False, 4, Nothing, 0)
+    Set myFeature = Part.FeatureManager.FeatureCut3(True, False, False, 0, 0, 0.018, 0.019, False, False, False, False, 0.01745, 0.01745, False, False, False, False, False, True, True, True, True, False, 0, 0, False)
+    Part.ClearSelection2 True
+
+  
+    ' Pembersihan Akhir & Tampilan Fleksibel
+    Part.ClearSelection2 True
+    Part.ViewZoomtofit2
+    Part.SelectionManager.EnableContourSelection = False
+    
+    MsgBox "Model 80x100mm dengan Kantong Bertingkat sukses dibuat!", vbInformation, "SolidWorks Sukses"
+
+End Sub
+
